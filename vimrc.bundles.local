@@ -1,0 +1,6 @@
+Plug 'flazz/vim-colorschemes'
+Plug 'roman/golden-ratio'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'airblade/vim-gitgutter'
+Plug 'osyo-manga/vim-over'
+Plug 'thoughtbot/vim-rspec'

@@ -1,0 +1,11 @@
+let g:gruvbox_italic=1
+colorscheme gruvbox
+" colorscheme solarized
+" set background=dark
+" set background=light
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+let g:rspec_command = "!bundle exec rspec --drb {spec}"

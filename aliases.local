@@ -1,0 +1,5 @@
+alias be='bundle exec'
+alias rspec='bundle exec rspec'
+alias c='bundle exec rails console'
+alias s='bundle exec rails server'
+alias promote='heroku pipelines:promote -r heroku-staging'
