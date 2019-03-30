@@ -1,6 +1,16 @@
-Plug 'flazz/vim-colorschemes'
 Plug 'roman/golden-ratio'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'airblade/vim-gitgutter'
 Plug 'osyo-manga/vim-over'
 Plug 'thoughtbot/vim-rspec'
+Plug 'mattn/emmet-vim'
+Plug 'vim-scripts/guicolorscheme.vim'
+UnPlug 'ale'
+
+" color schemes
+Plug 'flazz/vim-colorschemes'
+Plug 'tjammer/blayu.vim'
+Plug 'aradunovic/perun.vim'
+Plug 'jacoborus/tender.vim'
+Plug 'SolomonSklash/vim-snazzy'
+Plug 'connorholyday/vim-snazzy'

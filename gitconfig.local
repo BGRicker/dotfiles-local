@@ -7,3 +7,9 @@
   email = bgricker@bgricker.com
 [core]
   eol = lf
+[push]
+  default = tracking
+[color]
+  status = auto
+  diff = auto
+  branch = auto

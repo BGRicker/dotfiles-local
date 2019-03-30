@@ -1,11 +1,47 @@
-let g:gruvbox_italic=1
-colorscheme gruvbox
-" colorscheme solarized
-" set background=dark
-" set background=light
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+
+" Make it obvious where 120 characters is
+set textwidth=120
+
 let g:rspec_command = "!bundle exec rspec --drb {spec}"
+
+set term=xterm-256color
+
+set termguicolors
+
+" Theme
+" set background=dark
+" set background=light
+" colorscheme perun
+" let g:gruvbox_italic=1
+" colorscheme gruvbox
+" colorscheme blayu
+" colorscheme solarized
+" colorscheme tender
+
+" colorscheme OceanicNextLight
+" colorscheme seattle
+" colorscheme railscasts
+
+" colorscheme benlight
+" colorscheme janah
+" colorscheme mod8
+" colorscheme alduin
+" colorscheme termschool
+" colorscheme zenburn
+" colorscheme seoul256
+" colorscheme seti
+
+colorscheme snazzy
+let g:SnazzyTransparent = 1
+let g:lightline = {
+\ 'colorscheme': 'snazzy',
+\ }
+
+
+
+set t_Co=256
