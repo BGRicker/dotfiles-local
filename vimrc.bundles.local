@@ -29,5 +29,23 @@ Plug 'chase/focuspoint-vim'
 Plug 'liuchengxu/space-vim-theme'
 Plug 'benburrill/potato-colors'
 Plug 'johngrib/vim-game-code-break'
+Plug 'neomake/neomake'
 
 Plug 'powerline/powerline'
+
+Plug 'bluz71/vim-nightfly-guicolors'
+Plug 'pgavlin/pulumi.vim'
+Plug 'arzg/vim-colors-xcode'
+
+Plug 'pgavlin/pulumi.vim'
+Plug 'sainnhe/sonokai'
+Plug 'dylnmc/novum.vim'
+Plug 'bluz71/vim-nightfly-guicolors'
+Plug 'wadackel/vim-dogrun'
+
+Plug 'artanikin/vim-synthwave84'
+Plug 'sainnhe/edge'
+Plug 'sainnhe/sonokai'
+Plug 'franbach/miramare'
+Plug 'zefei/simple-dark'
+Plug 'dense-analysis/ale'
