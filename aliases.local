@@ -1,5 +1,4 @@
 alias be='bundle exec'
-alias rspec='bundle exec rspec'
 alias c='bundle exec rails console'
 alias s='bundle exec rails server'
 alias promote='heroku pipelines:promote -r'
@@ -16,3 +15,13 @@ alias e='nvim'
 alias master='g co master && g up --autostash'
 alias linter='rubocop && rspec'
 alias gl="git log --all --decorate --oneline --graph"
+alias grc="git rebase --continue"
+alias grs="git rebase --skip"
+alias gra="git rebase --abort"
+alias gcpi="git cherry-pick"
+alias gcpc="git cherry-pick --continue"
+alias gcpa="git cherry-pick --abort"
+alias aliases="vim ~/dotfiles-local/aliases.local"
+alias dbreset="rake db:drop && rake db:create && rake db:migrate"
+alias grep="grep  --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}"
+alias rspec="bundle exec rspec"

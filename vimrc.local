@@ -17,25 +17,23 @@ set termguicolors
 " colorscheme perun
 " let g:gruvbox_italic=1
 " colorscheme gruvbox
-" colorscheme blayu
-" colorscheme solarized
+colorscheme blayu
 " colorscheme tender
 
 " colorscheme OceanicNextLight
-" colorscheme seattle
-" colorscheme railscasts
 
-" colorscheme benlight
 " colorscheme janah
-" colorscheme mod8
-" colorscheme alduin
-" colorscheme termschool
-" colorscheme zenburn
-" colorscheme seoul256
-" colorscheme seti
-" colorscheme snazzy
+" colorscheme nightfly
+" colorscheme dogrun
+" colorscheme xcodedarkhc
 
-colorscheme eighties
+" colorscheme synthwave84
+" colorscheme polar
+" colorscheme sonokai
+" colorscheme miramare
+" colorscheme simple-dark
+"
+" colorscheme eighties
 " let g:SnazzyTransparent = 1
 " let g:lightline = {
 " \ 'colorscheme': 'snazzy',
@@ -44,6 +42,19 @@ colorscheme eighties
 
 
 set t_Co=256
+set relativenumber
+
+" Run NeoMake on read and write operations
+autocmd! BufReadPost,BufWritePost * Neomake
+
+" Disable inherited syntastic
+let g:syntastic_mode_map = {
+  \ "mode": "passive",
+  \ "active_filetypes": [],
+  \ "passive_filetypes": [] }
+
+let g:neomake_serialize = 1
+let g:neomake_serialize_abort_on_error = 1
 
 " set rtp+=/usr/local/opt/fzf
 
@@ -84,3 +95,8 @@ set t_Co=256
 " " previous-history instead of down and up. If you don't like the change,
 " " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 " let g:fzf_history_dir = '~/.local/share/fzf-history'
+
+if &diff
+    set diffopt-=internal
+    set diffopt+=vertical
+endif
